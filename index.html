@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang='fr'>
+    <head>
+        <meta charset="utf-8">
+        <title>Konexio - Test</title>
+        <link rel='stylesheet' href='src/css/bootstrap.css?t=<? echo time(); ?>'>
+        <link rel='stylesheet' href='src/css/style.css?t=<? echo time(); ?>'>
+    </head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto font-weight-bold" href="#">DigiNomad</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#apropos">A propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-end">
+                    <h1 class="text-white font-weight-bold">DigiNomad</h1>
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <h4 class="text-white-75 font-weight-bold mb-5 text-white">La liberté d'entreprendre<h4>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id='apropos' style="background-color: #00dac2;">
+    <div class="container pt-5 pb-5">
+        <div class='row'>
+            <div class='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
+                <h2 class='text-white font-weight-bold'>A propos de nous</h2>
+                <p class='mt-5 text-white'>Nous sommes un collectif de développeuses et de développeurs passionné.e.s par la creation d'application simple d'utilisation et performantes pour votre entreprise ou votre projet</p>
+                <p class='text-white'>Nous sommes un collectif de développeuses et de développeurs passionné.e.s par la creation d'application simple d'utilisation et performantes pour votre entreprise ou votre projet</p>
+            </div>
+            <div class='col-lg-5 col-md-5 col-sm-12 col-xs-12'>
+                <img class='img-fluid' src="./src/img/service1.jpg">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id='services' style="background-color: white;">
+        <div class="container pt-5 pb-5">
+            <div class='row'>
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                    <h2 class='font-weight-bold'>Comment pouvons-nous vous aider?</h2>
+                </div>
+            </div>
+            <div class='row mt-5'>
+                <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-2'>
+                    <div class="card mx-auto" style="width: auto; max-width: 25rem;">
+                        <img class="card-img-top" src="./src/img/service1.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Site web</h5>
+                          <a href="#" class="btn btn-outline-primary">Commander</a>
+                        </div>
+                      </div>
+                </div>
+                <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-2'>
+                    <div class="card mx-auto" style="width: auto; max-width: 25rem;">
+                        <img class="card-img-top" src="./src/img/service2.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Application mobile</h5>
+                          <a href="#" class="btn btn-outline-primary">Commander</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <footer id='contact' style="background-color: #00dac2;">
+            <div class='mt-5 pt-5 pb-5'>
+                <div class='container'>
+                    <div class='row'>
+                        <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 text-white'>
+                            <h3>Konexion - Station F</h3>
+                            <h5>DigiNomad</h5>
+                            <p>5 Parvis Alan Turing</p>
+                            <p>75015 Paris</p>
+                        </div>
+                        <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 text-white'>
+                            <h3>Newsletter</h3>
+                            <div class="form-group">
+                            <input type="email" placeholder='Email' class="form-control" style='width: 15rem;'>
+                            <button type="submit" style='width: 15rem;' class="btn btn-outline-footer mt-2">M'inscrire</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+<script src='src/js/script.js'></script>
+<script src='src/js/bootstrap.js'></script>
+</html>
